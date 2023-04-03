@@ -43,15 +43,15 @@ APT_PACKAGES = ["ffmpeg", "neofetch", "mediainfo"]
 
 DISCLAIMER_TEXT = ""
 
-COPYRIGHT = f"©️ TeamUltroid {datetime.now().year}"
+COPYRIGHT = f"©️ VipFreinds {datetime.now().year}"
 
 HEADER = f"""{Fore.MAGENTA}
-╔╗ ╔╗╔╗  ╔╗            ╔╗
-║║ ║║║║ ╔╝╚╗           ║║
-║║ ║║║║ ╚╗╔╝╔═╗╔══╗╔╗╔═╝║
-║║ ║║║║  ║║ ║╔╝║╔╗║╠╣║╔╗║
-║╚═╝║║╚╗ ║╚╗║║ ║╚╝║║║║╚╝║
-╚═══╝╚═╝ ╚═╝╚╝ ╚══╝╚╝╚══╝\n{Fore.RESET}
+
+
+
+
+SAKIL 
+\n{Fore.RESET}
 """
 
 INFO_TEXT = f"""
@@ -182,13 +182,9 @@ clear()
 print(
     f"""
 {Fore.BLACK}{Back.WHITE} _____________ 
- ▄▄   ▄▄ ▄▄▄     ▄▄▄▄▄▄▄ ▄▄▄▄▄▄   ▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄▄▄▄  
-█  █ █  █   █   █       █   ▄  █ █       █   █      █ 
-█  █ █  █   █   █▄     ▄█  █ █ █ █   ▄   █   █  ▄    █
-█  █▄█  █   █     █   █ █   █▄▄█▄█  █ █  █   █ █ █   █
-█       █   █▄▄▄  █   █ █    ▄▄  █  █▄█  █   █ █▄█   █
-█       █       █ █   █ █   █  █ █       █   █       █
-█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█ █▄▄▄█ █▄▄▄█  █▄█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄█ 
+
+
+SAKIL
 {Style.RESET_ALL}
 {Fore.GREEN}- ULTROID Termux Installation -
   The Main Aim of this script is to deploy Ultroid with basic requirements and save your phone resources.
@@ -256,9 +252,9 @@ sleep(0.2)
 print(f"Use 'bash startup' to try running Ultroid.{Fore.RESET}")
 sleep(0.5)
 print(
-    "\nYou can head over to @UltroidSupportChat, if you get stuck somewhere, and need help."
+    "\nYou can head over to @VipFreinds, if you get stuck somewhere, and need help."
 )
 sleep(0.5)
-print("\nMade with ❤️ by @TeamUltroid...")
+print("\nMade with ❤️ by @VipFreinds...")
 
 system("pip3 uninstall -q colorama -y")
