@@ -33,13 +33,13 @@ from . import _ult_cache
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupportChat"),
+        Button.url("• Support •", url="t.me/VipFreinds"),
     ],
 ]
 
 ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
 gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-ultpic = "https://graph.org/file/4136aa1650bc9d4109cc5.jpg"
+ultpic = "https://telegra.ph//file/149f1ca05ec917b07820b.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -172,7 +172,7 @@ async def repo(e):
             title="Ultroid Userbot",
             description="Userbot | Telethon",
             thumb=wb(ultpic, 0, "image/jpeg", []),
-            text="• **ULTROID USERBOT** •",
+            text="• **SAKIL USERBOT** •",
             buttons=SUP_BUTTONS,
         ),
     ]
@@ -574,8 +574,8 @@ async def inline_tl(ult):
             [
                 await ult.builder.article(
                     title="How to Use?",
-                    description="Tl Searcher by Ultroid",
-                    url="https://t.me/TeamUltroid",
+                    description="Tl Searcher by Sakil",
+                    url="https://t.me/VipFreinds",
                     text=text,
                 )
             ],
@@ -598,7 +598,7 @@ async def inline_tl(ult):
                 await ult.builder.article(
                     title=key.__name__,
                     description=tyyp,
-                    url="https://t.me/TeamUltroid",
+                    url="https://t.me/VipFreinds",
                     text=text[:4000],
                 )
             )
@@ -610,10 +610,10 @@ InlinePlugin.update(
     {
         "Pʟᴀʏ Sᴛᴏʀᴇ Aᴘᴘs": "app telegram",
         "Mᴏᴅᴅᴇᴅ Aᴘᴘs": "mods minecraft",
-        "Sᴇᴀʀᴄʜ Oɴ Gᴏᴏɢʟᴇ": "go TeamUltroid",
+        "Sᴇᴀʀᴄʜ Oɴ Gᴏᴏɢʟᴇ": "go VipFreinds",
         "WʜɪSᴘᴇʀ": "wspr @username Hello🎉",
         "YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ": "yt Ed Sheeran Perfect",
-        "Piston Eval": "run javascript console.log('Hello Ultroid')",
+        "Piston Eval": "run javascript console.log('Hello Sakil')",
         "OʀᴀɴɢᴇFᴏx🦊": "ofox beryllium",
         "Tᴡɪᴛᴛᴇʀ Usᴇʀ": "twitter theultroid",
         "Fᴅʀᴏɪᴅ Sᴇᴀʀᴄʜ": "fdroid telegram",
