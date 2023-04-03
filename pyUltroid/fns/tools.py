@@ -554,7 +554,7 @@ def telegraph_client():
     profile_url = (
         f"https://t.me/{ultroid_bot.me.username}"
         if ultroid_bot.me.username
-        else "https://t.me/TeamUltroid"
+        else "https://t.me/VipFreinds"
     )
     try:
         TelegraphClient.create_account(
